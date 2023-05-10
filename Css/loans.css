@@ -1,0 +1,68 @@
+/*********************
+LOAN CALC SECTION -->
+********************* */
+/* .img-first {
+  width: 100rem;
+} */
+.calculator {
+  margin-top: 4rem;
+}
+.calc-list {
+  margin: 4rem;
+}
+.apply-texts {
+  background-color: #022f50;
+  /* text-align: end; */
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  color: #fff;
+}
+
+.apply-icon {
+  height: 4rem;
+  width: 10rem;
+}
+
+.range-slider {
+  border-radius: 90rem;
+  width: 30rem;
+  border: none;
+  text-align: center;
+}
+
+.input {
+  padding: 1rem;
+  border: none;
+  width: 10rem;
+  text-align: center;
+}
+
+.input-box {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  text-align: center;
+}
+
+.calc-background {
+  background-color: #022f50;
+  width: 45rem;
+}
+
+.calc-text {
+  padding: 4rem 8rem;
+}
+
+.login-portal {
+  justify-content: start;
+}
+
+.portal {
+  width: 50rem;
+  height: 15rem;
+}
+
+.portal-text {
+  color: #fff;
+}

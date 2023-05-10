@@ -1,0 +1,52 @@
+.text-descriptions {
+  text-align: start;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.product-content {
+  margin: auto;
+  background-color: #fff;
+  width: 80rem;
+}
+
+/*********************
+RESPONSIBILITY SECTION
+******************** */
+.grid--2-cols {
+  position: relative;
+}
+
+.grid-2 {
+    height: 50rem;
+}
+
+.res-doc {
+  background-color: #044675;
+  height: 30rem;
+  width: 50rem;
+  position: absolute;
+  left: 55rem;
+  top: 12rem;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+.doc-content {
+  display: flex;
+  gap: 4rem;
+  color: #ce901e;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.doc-icon {
+  height: 5rem;
+  width: 3rem;
+  color: #e9c581;
+}
+
+.enquiry {
+  background-color: transparent;
+}

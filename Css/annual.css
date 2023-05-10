@@ -1,0 +1,161 @@
+body {
+  background-color: #fff;
+}
+.mainnav {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  opacity: 1;
+}
+
+.main--nav--list {
+  gap: 2rem;
+}
+
+.main-nav {
+  gap: 20rem;
+}
+
+.main-nav-list {
+  padding: 0 3rem;
+}
+
+.main--nav-link:link,
+.main--nav-link:visited {
+  color: #fff;
+}
+
+.main--nav-link:hover,
+.main--nav-link:active {
+  border-bottom: 1.5px solid #ffff;
+}
+
+.main--nav {
+  background-color: #003b65;
+  padding-bottom: 4rem;
+}
+
+.premium-img {
+  height: 4rem;
+  width: 10rem;
+}
+
+.holdings-logo {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+
+.active-border {
+  border-bottom: 1.5px solid #ffff;
+  padding-bottom: 1rem;
+}
+
+.btn-cta:link,
+.btn-cta:visited {
+  background-color: #a0a0a8;
+  color: #002f51;
+  font-weight: bold;
+}
+
+.btn-cta:hover,
+.btn-cta:active {
+  background-color: #d4d4dd;
+  border-bottom: none;
+}
+
+.icon {
+  color: #fff;
+}
+
+/*********************
+AGENT BANKING SECTION
+********************/
+.grid-,
+.grid-pad {
+  background-color: #dcdce0;
+}
+
+.home-btn {
+  color: #03042c;
+}
+
+.primary-header {
+  color: #003b65;
+  font-size: 4rem;
+  text-align: start;
+}
+
+.img {
+  width: 70rem;
+}
+
+.container {
+  margin: 5rem 8rem;
+}
+
+/*********************
+ANNUAL SECTION
+********************/
+/* .annual-section {
+  margin: 0 8rem;
+  background-color: #fff;
+} */
+
+.grid-cols {
+  overflow: hidden;
+}
+
+.annual-grid {
+  background-color: #dfdfe6;
+  padding: 9rem;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.pen {
+  padding: 0;
+}
+
+.grid-cols:hover .img-first {
+  transform: scale(1.09);
+}
+
+.btn-cta:link, 
+.btn-cta:visited {
+  background-color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+}
+
+.btn-cta:hover, 
+.btn-cta:active {
+  background-color: #003b65;
+  color: #fff;
+} 
+
+/*********************
+FEATURE & FOOTER SECTION
+********************/
+.more-feature {
+  background-color: #dcdce0;
+}
+
+.head {
+  text-align: center;
+}
+
+.grid-3:hover .texts {
+  color: #fff;
+}
+
+.copy-right {
+  display: flex;
+  gap: 3rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #fff;
+}

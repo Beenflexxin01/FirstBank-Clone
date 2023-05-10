@@ -1,0 +1,193 @@
+/*********************
+FIRSTMONIE SECTION
+*********************/
+.home--btn {
+  color: #abbecc;
+  font-size: 1.2rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #022f50;
+}
+
+.btn_cta {
+  background-color: #dabc18;
+  border: #dabc18;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  color: #022f50;
+  font-weight: bold;
+}
+
+.btn_cta:hover,
+.btn:active {
+  background-color: #022f50;
+  color: #ffc400;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-first {
+  height: 42rem;
+}
+
+.grid-pad {
+  background-color: #054675;
+  padding: 1rem;
+}
+
+/*********************
+INFORMATION SECTION
+*********************/
+.primary-heading {
+  font-size: 1.8rem;
+}
+.product-info {
+  display: flex;
+  cursor: pointer;
+  margin-left: 6rem;
+}
+
+.content-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  border: none;
+  padding: 2rem;
+  color: #022f50;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.active {
+  background-color: #fff;
+}
+
+.product-content,
+.product-content-active {
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 6rem;
+  padding: 4rem;
+  width: 115rem;
+  margin-left: 6rem;
+}
+
+.hidden-content {
+  display: none;
+}
+
+.product-list {
+  list-style: disc;
+}
+
+span {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 2px solid #555;
+  border-collapse: collapse;
+  padding: 2rem;
+  width: 100rem;
+  margin-top: 3rem;
+}
+
+th {
+  background-color: #022f50;
+  color: #fff;
+}
+
+.btnn {
+  display: flex;
+  background-color: #ffc400;
+  color: #fff;
+  border-radius: 1rem;
+  margin: 3rem 35rem;
+  font-size: 2rem;
+  width: 45rem;
+  align-items: center;
+  padding: 1.5rem 5rem;
+}
+
+.btnn:hover,
+.btnn:active {
+  color: #fff;
+}
+
+.login-portal {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.portal {
+  background-color: #022f50;
+  margin: 2rem;
+  padding: 1rem 3rem;
+  width: 45rem;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+
+.icon-portal {
+  width: 4rem;
+  height: 5rem;
+  background-color: none;
+}
+
+.portal-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.portal:hover .portal-text,
+.portal:active .portal-text {
+  color: #ffc400;
+}
+
+/*********************
+REASON SECTION
+*********************/
+.grid-2--cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+
+.gridd-2 {
+  background-color: #fff;
+  margin: 2rem;
+  padding: 4rem;
+  width: 54rem;
+}
+
+.grid-number {
+  background-color: #022f50;
+  font-size: 5rem;
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+  color: #dabc18;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 42rem;
+  margin-top: -4rem;
+}
+
+.grid-header {
+  margin: 0;
+  color: #044675;
+  font-size: 1.8rem;
+}
+
+.grid-text {
+  font-size: 1.5rem;
+}
+
+.more-feature {
+  margin-bottom: 5rem;
+}
