@@ -6,6 +6,8 @@
 }
 
 .product-content {
+  text-align: start;
+  padding: 4rem;
   margin: auto;
   background-color: #fff;
   width: 80rem;

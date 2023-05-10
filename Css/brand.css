@@ -1,0 +1,40 @@
+.image-logo {
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  width: 80rem;
+  /* height: 20rem; */
+}
+
+.span {
+  color: #020270;
+  font-size: 2.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.span:hover,
+.span:active {
+  color: #020229;
+}
+
+.image-first {
+  height: 10rem;
+  margin-bottom: 3rem;
+}
+
+.text-description {
+  font-size: 1.7rem;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.promise-ul {
+  margin: 0 3rem;
+}
+
+.promise-list {
+  list-style: disc;
+}
