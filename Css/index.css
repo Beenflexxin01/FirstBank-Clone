@@ -161,6 +161,15 @@ li {
   display: none;
 }
 
+/* ************************ */
+/* STICKY NAVIGATION */
+/* ************************ */
+.main-nav .sticky {
+  position: fixed;
+  background-color: #fff;
+}
+
+
 .dropdown {
   display: inline-block;
   position: relative;
