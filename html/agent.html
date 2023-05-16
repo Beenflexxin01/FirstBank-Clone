@@ -26,9 +26,11 @@
     ></script>
     <script src="/Js/script.js" defer></script>
     <script src="/Js/agent.js" defer></script>
+    <script src="/Js/index.js" defer></script>
     <link rel="stylesheet" href="/Css/index.css" />
     <link rel="stylesheet" href="/Css/about.css" />
     <link rel="stylesheet" href="/Css/agent.css" />
+    <link rel="stylesheet" href="/Css/query.css" />
     <title>Agent Banking - FirstBank Nigeria</title>
   </head>
   <body>
@@ -52,13 +54,15 @@
           </li>
         </ul>
 
-        <ul class="main-nav-list">
+        <ul class="main-nav-list hidden-nav">
           <li class="main--nav-list">
             <a href="" class="main-nav-link active">Select Language</a>
           </li>
 
           <li class="main--nav-list">
-            <a href="sustainability.html" class="main-nav-link">SUSTAINABILITY</a>
+            <a href="sustainability.html" class="main-nav-link"
+              >SUSTAINABILITY</a
+            >
           </li>
 
           <li class="main--nav-list">
@@ -77,17 +81,13 @@
           </li>
         </ul>
       </nav>
+    </header>
+    <header class="header">
       <nav class="main--nav">
+        <img src="/images/First-Bank.svg" alt="First-Bank Logo" class="logo" />
         <ul class="main--nav--list">
-          <li class="main--nav-list">
-            <img
-              src="/images/First-Bank.svg"
-              alt="First-Bank Logo"
-              class="logo"
-            />
-          </li>
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="" class="main--nav-link">Accounts</a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -104,7 +104,7 @@
           </div>
 
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="" class="main--nav-link">Cards</a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -116,7 +116,7 @@
           </div>
 
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="loans.html" class="main--nav-link">Loans </a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -130,7 +130,7 @@
           </div>
 
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="" class="main--nav-link">Ways To Bank</a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -147,7 +147,7 @@
           </div>
 
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="" class="main--nav-link">Transfers</a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -166,7 +166,7 @@
           </div>
 
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="" class="main--nav-link">E-Solutions</a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -182,7 +182,7 @@
           </div>
 
           <div class="dropdown">
-            <li class="main--nav-list">
+            <li class="main--nav-list border">
               <a href="" class="main--nav-link">Payments</a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
               <div class="dropdown-content">
@@ -195,13 +195,11 @@
             </li>
           </div>
 
-          <li class="main--nav-list width">
+          <li class="main--nav-list border">
             <a href="" class="main--nav-link">Blog</a>
           </li>
-        </ul>
 
-        <ul class="main--nav--list">
-          <li class="main--nav-list search-btn">
+          <li class="main--nav-list search-btn hidden-nav">
             <!-- <ion-icon name="search-sharp" class="search-icon icon"></ion-icon> -->
             <form action="">
               <input
@@ -214,18 +212,22 @@
             </form>
           </li>
 
-          <li class="main--nav-list">
+          <li class="main--nav-list hidden-nav">
             <a href="" class="main--nav-link btn-cta">Online Banking</a>
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <!-- ******************** -->
       <!--  AGENT BANKING SECTION -->
       <!-- ******************** -->
       <section class="agent-section">
-        <div class="grid--2-cols">
+        <div class="grid--2-cols grid-block">
           <div class="grid-">
             <a href="" class="home--btn"
               >BACK TO: <span class="home-btn">FIRSTMONIE</span></a
@@ -728,7 +730,7 @@
       <section class="reason-section">
         <div class="container">
           <h2 class="primary-header">7 Reasons to Become a Firstmonie Agent</h2>
-          <div class="grid-2--cols">
+          <div class="grid-2--cols grid--block">
             <div class="gridd-2">
               <p class="grid-number">1</p>
               <h5 class="primary-heading grid-header">Quick Registration</h5>
@@ -738,15 +740,13 @@
               <p class="grid-number">2</p>
               <h5 class="primary-heading grid-header">Instant free POS</h5>
               <p class="grid-text">
-                Get a free POS terminal when you onboard as a <br />
-                Firstmonie Agent
+                Get a free POS terminal when you onboard as a Firstmonie Agent
               </p>
             </div>
             <div class="gridd-2">
               <p class="grid-number">3</p>
               <h5 class="primary-heading grid-header">
-                Instant credit / settlement for <br />
-                transactions processed
+                Instant credit / settlement for transactions processed
               </h5>
               <p class="grid-text">Easy / stress free liquidity management</p>
             </div>
@@ -761,7 +761,7 @@
               <p class="grid-number">5</p>
               <h5 class="primary-heading grid-header">Insurance cover</h5>
               <p class="grid-text">
-                Comprehensive insurance for you the Agent and <br />
+                Comprehensive insurance for you the Agent and
                 your workers; priced at the cheapest rate
               </p>
             </div>
@@ -771,7 +771,7 @@
                 Excellent support structure
               </h5>
               <p class="grid-text">
-                Over 750 branches across Nigeria ready to attend to <br />
+                Over 750 branches across Nigeria ready to attend to 
                 your needs
               </p>
             </div>
@@ -781,7 +781,7 @@
                 Member of the largest Agent network
               </h5>
               <p class="grid-text">
-                Opportunity to join the largest Agent network in <br />
+                Opportunity to join the largest Agent network in
                 Nigeria
               </p>
             </div>
@@ -794,7 +794,7 @@
       <section class="more-feature">
         <div class="container">
           <h2 class="primary-header">See Also</h2>
-          <div class="grid--4-cols">
+          <div class="grid--4-cols grid-4">
             <div class="grid-3">
               <a href=""
                 ><img

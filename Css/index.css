@@ -7,7 +7,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 body {
@@ -90,8 +90,13 @@ li {
 }
 
 .logo {
+  /* padding: 0 5rem; */
   width: 13rem;
   height: 4rem;
+}
+
+.login-nav {
+  display: block;
 }
 
 .main--nav {
@@ -102,7 +107,7 @@ li {
 
 .main--nav--list {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -137,6 +142,23 @@ li {
   height: 1.5rem;
   width: 1.5rem;
   cursor: pointer;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 .dropdown {
@@ -198,10 +220,6 @@ li {
   flex-direction: column;
 }
 
-/* .carousel-img {
-  position: relative;
-} */
-
 .my-slides {
   display: none;
 }
@@ -231,7 +249,6 @@ img {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(15px);
   position: absolute;
-  /* top: -31rem; */
   top: 49rem;
   width: 45rem;
   padding: 5rem;
@@ -308,10 +325,6 @@ img {
   color: #053c7c;
 }
 
-/* .icon-slides {
-  padding: 13rem;
-} */
-
 /*********************
      HISTORY SECTION 
  *********************/
@@ -363,13 +376,21 @@ img {
   transition: all 0.5s ease-in-out;
 }
 
+.imgg {
+  height: 10rem;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: relative;
+  margin-top: 10rem;
+  left: 5rem;
+}
+
 .image {
   width: 50rem;
   height: 35rem;
   position: absolute;
   right: 23rem;
-  /* top: 125rem; */
-  margin-top: 3rem;
+  margin-top: -4rem;
   background-color: none;
 }
 
@@ -407,7 +428,7 @@ img {
 }
 
 .images:hover {
-  transform: scaleX(1.2);
+  transform: scale(1.2);
 }
 
 /*********************
@@ -417,16 +438,16 @@ img {
 .grid-2 {
   background-color: #fff;
   margin: 3rem;
-  padding: 12rem;
+  padding: 10rem;
   overflow: hidden;
   width: 60rem;
-  height: 57rem;
+  /* height: 50rem; */
 }
 
 .brand-promise {
   background-color: #054a7c;
-  width: 45rem;
-  height: 35rem;
+  width: 60em;
+  height: 40rem;
   padding: 8rem;
   padding-bottom: 3rem;
   position: absolute;
@@ -489,16 +510,16 @@ OBJECTIVES SECTION
     VISION & MISSION
      SECTION 
  *********************/
-.imgg {
+.img-globe {
   background-color: transparent;
 }
 
 .img {
-  width: 50rem;
-  height: 45rem;
+  width: 45rem;
+  height: 35rem;
   position: absolute;
-  right: 25rem;
-  margin-top: -7rem;
+  right: 28rem;
+  margin-top: -4rem;
 }
 
 /*********************

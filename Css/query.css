@@ -1,0 +1,595 @@
+@media (max-width: 84em) {
+  .main-section {
+    max-width: 120rem;
+  }
+
+  .main-nav {
+    display: block;
+  }
+
+  .main--nav {
+    display: block;
+  }
+
+  .main--nav--list {
+    gap: 2rem;
+  }
+
+  .main--nav-link:link,
+  .main--nav-link:visited {
+    font-size: 1.5rem;
+  }
+
+  .search-input {
+    width: 15rem;
+  }
+
+  .login {
+    left: 90rem;
+  }
+
+  .write-up {
+    /* top: 41.5rem; */
+    margin-top: -20rem;
+  }
+
+  /*********************
+     FBN@25 SECTION 
+ *********************/
+
+  .network-section {
+    margin: auto;
+  }
+}
+
+/* 
+<!-- ******************** -->
+<!-- BELOW 1200PX -->
+<!-- ******************** --> */
+@media (max-width: 75em) {
+  /* body {
+    background-color: green;
+  } */
+  html {
+    font-size: 56.25%;
+    /* overflow-x: hidden; */
+  }
+
+  .icon-slider {
+    gap: 3rem;
+  }
+
+  .icon_slide {
+    padding: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .icon-text {
+    font-size: 1rem;
+  }
+
+  .write-up {
+    top: 80rem;
+  }
+
+  .main--nav--list {
+    gap: 1rem;
+  }
+
+  .img {
+    right: 10rem;
+  }
+}
+
+/* `
+<!-- ******************** -->
+<!-- BELOW 944PX TABLETS -->
+<!-- ******************** --> */
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    position: absolute;
+    top: 6.5rem;
+    left: 0.8rem;
+  }
+
+  .history-margin {
+    text-align: center;
+  }
+
+  .logo {
+    padding: 0 5rem;
+    width: 30rem;
+    height: 5rem;
+  }
+
+  .active-border {
+    border-bottom: none;
+  }
+
+  .main-nav-list {
+    margin: 0 30rem;
+    gap: 4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.5rem;
+  }
+
+  .hidden-nav {
+    display: none;
+  }
+
+  .main--nav--list {
+    display: flex;
+    background-color: #022f50;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    width: 100%;
+    align-items: start;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 1;
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .nav-open .main--nav--list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .border {
+    border-bottom: 0.1px solid #222;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .gridd-2 {
+    width: 45rem;
+    /* padding: 10rem; */
+    /* text-align: start; */
+
+  }
+
+  .grid-header {
+    margin-top: 10rem;
+  }
+
+  .grid-number {
+    margin-left: -1rem;
+    margin-top: -2rem;
+    height: 10rem;
+    width: 40rem;
+  }
+
+  .grid-text {
+    font-size: 1.8rem;
+  }
+
+  .main--nav-link:link,
+  .main--nav-link:visited {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+
+  .dropdown-content {
+    width: 100%;
+    background-color: #022f50;
+    align-items: center;
+    padding: 2rem;
+    /* z-index: -1; */
+    /* margin-top: 100rem; */
+  }
+
+  .dropdown-link {
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .dropdown {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    width: 10rem;
+    height: 2rem;
+    color: #fff;
+    margin-left: auto;
+  }
+
+  .grid-img,
+  .grid-pad {
+    display: none;
+  }
+
+  .grid- {
+    text-align: center;
+  }
+
+  .grid-block {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .grid---2 {
+    width: 100rem;
+  }
+
+  .secondary-header {
+    font-size: 3rem;
+  }
+
+  .grid---2:nth-child(1) {
+    grid-row: 2;
+    padding: 3rem;
+  }
+
+  .grid-_2 {
+    background-color: #fff;
+    padding: 3rem;
+  }
+
+  .image {
+    right: 0;
+  }
+
+  .tertiary-header {
+    text-align: center;
+  }
+
+  .text-margin {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .brand-promise {
+    left: 85rem;
+    margin-top: 5rem;
+    height: 38rem;
+    width: 40rem;
+  }
+
+  .grid-2 {
+    width: 90rem;
+    margin: 1rem;
+  }
+
+
+  .imgg {
+    margin-top: 0.2rem;
+    left: 0;
+    margin-bottom: 25rem;
+  }
+
+  .image-chess {
+    padding: 0 15rem;
+    left: -13rem;
+    margin-top: -0.5rem;
+    /* width: 137rem; */
+  }
+
+  /* .purpose-text {
+    width: 40rem;
+  } */
+
+  .grid-cols {
+    display: block;
+    text-align: center;
+  }
+
+  .img {
+    margin-top: -50rem;
+    right: 3rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    margin: 4rem;
+  }
+
+  .texts {
+    text-align: start;
+  }
+
+  .grid-3-img {
+    width: 50rem;
+  }
+
+  .grid-4 {
+    margin-bottom: 2rem;
+  }
+
+  .login-nav {
+    display: block;
+    position: absolute;
+    left: 10rem;
+    z-index: 1;
+  }
+
+  .carousel-img img {
+    height: 100rem;
+  }
+
+  .login {
+    display: block;
+    left: 0.5rem;
+    width: 99%;
+    bottom: -40rem;
+    /* margin-bottom: -2rem; */
+  }
+
+  .btn-login,
+  .btn--cta {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .login-text {
+    font-size: 1.8rem;
+  }
+
+  .main--nav-link:hover,
+  .main--nav-link:active {
+    border-bottom: none;
+  }
+
+  .res-doc {
+    left: 72rem;
+    width: 38rem;
+    /* width: 100%; */
+  }
+}
+
+/* 
+<!-- ******************** -->
+<!-- BELOW 764PX(smaller tablets) -->
+<!-- ******************** --> */
+@media (max-width: 48em) {
+  /* body {
+    background-color: yellow;
+  } */
+
+  .active:link,
+  .active:visited {
+    padding: 5rem;
+  }
+
+  .container {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .main-nav-list {
+    margin: 0;
+    gap: 14rem;
+  }
+
+  .icon-slider {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .icon_slide {
+    padding: 4rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .history-margin {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .purpose-text {
+    width: auto;
+  }
+
+  .grid--margin {
+    margin-bottom: 40rem;
+    width: 100%;
+  }
+
+  .brand-promise {
+    left: 4rem;
+    margin-top: 43rem;
+    height: 30rem;
+  }
+
+  .grid-2 {
+    width: 80rem;
+  }
+
+  .imgg {
+    width: 80rem;
+  }
+
+  .grid__2 {
+    grid-template-columns: 1fr;
+  }
+
+  .gridd-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .product-info {
+    flex-direction: column;
+    align-items: start;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+  }
+
+  .product-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .btnn {
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .grid-number {
+   width: 90%; 
+  }
+
+  .grid--block {
+    display: block;
+    margin: 2rem;
+  }
+
+  .objectives-section {
+    padding: 2rem;
+  }
+
+  .texts {
+    text-align: center;
+  }
+
+  .img-globe {
+    width: 80rem;
+    left: 14rem;
+  }
+
+  .calc-background {
+    width: 100%;
+  }
+
+  .img {
+    display: inline-block;
+    margin-top: -12rem;
+    right: 0;
+    left: 4.8rem;
+    height: 30rem;
+    width: 80rem;
+  }
+
+  .res-doc {
+    left: 0;
+    margin-top: 18rem;
+  }
+
+  .career-section,
+  .initiative-section {
+    margin-top: 10rem;
+  }
+
+  .grid---2 {
+    width: 80rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3-img {
+    width: 100%;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .login-portal {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-section {
+    margin-top: 15rem;
+  }
+}
+
+/* `
+<!-- ******************** -->
+<!-- BELOW 944PX TABLETS -->
+<!-- ******************** --> */
+@media (max-width: 35rem) {
+  /* body {
+    background-color: grey;
+  } */
+
+  .main-nav-list {
+    gap: 6rem;
+  }
+
+  .grid-2,
+  .grid---2 {
+    width: 50rem;
+  }
+
+  .imgg{
+    width: 50rem;
+    margin-top: 3rem;
+    left: 1rem;
+  }
+
+  .img {
+    width: 50rem;
+  }
+
+
+  .brand-promise {
+    margin-top: 65rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .res-doc {
+    margin-top: 33rem;
+  }
+
+  .career-section {
+    margin-top: 24rem;
+  }
+
+  .icon_slide {
+    width: 2rem;
+    height: 2rem;
+    padding: 3rem;
+    overflow-x: visible;
+  }
+
+
+}

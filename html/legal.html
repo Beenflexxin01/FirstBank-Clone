@@ -25,12 +25,14 @@
       defer
     ></script>
     <script src="/Js/script.js" defer></script>
+    <script src="/Js/index.js" defer></script>
     <link rel="stylesheet" href="/Css/index.css" />
     <link rel="stylesheet" href="/Css/about.css" />
     <link rel="stylesheet" href="/Css/career.css" />
     <link rel="stylesheet" href="/Css/agent.css" />
     <link rel="stylesheet" href="/Css/sustain.css" />
     <link rel="stylesheet" href="/Css/sponsor.css" />
+    <link rel="stylesheet" href="/Css/query.css" />
     <title>Legal - FirstBank Nigeria</title>
   </head>
   <body>
@@ -56,9 +58,11 @@
           </li>
         </ul>
 
-        <ul class="main-nav-list">
+        <ul class="main-nav-list hidden-nav">
           <li class="main--nav-list">
-            <a href="" class="main-nav-link active">Select Language</a>
+            <a href="" class="main-nav-link active hidden-nav"
+              >Select Language</a
+            >
           </li>
 
           <li class="main--nav-list">
@@ -83,16 +87,12 @@
           </li>
         </ul>
       </nav>
+    </header>
+    <header class="header">
       <nav class="main--nav">
+        <img src="/images/First-Bank.svg" alt="First-Bank Logo" class="logo" />
         <ul class="main--nav--list">
-          <li class="main--nav-list">
-            <img
-              src="/images/First-Bank.svg"
-              alt="First-Bank Logo"
-              class="logo"
-            />
-          </li>
-          <div class="dropdown">
+          <div class="dropdown border">
             <li class="main--nav-list">
               <a href="about.html" class="main--nav-link">About Us </a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
@@ -112,7 +112,7 @@
             </li>
           </div>
 
-          <div class="dropdown">
+          <div class="dropdown border">
             <li class="main--nav-list">
               <a href="media.html" class="main--nav-link">Media </a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
@@ -129,7 +129,7 @@
             </li>
           </div>
 
-          <div class="dropdown">
+          <div class="dropdown border">
             <li class="main--nav-list">
               <a href="career.html" class="main--nav-link">Careers </a>
               <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
@@ -141,7 +141,7 @@
             </li>
           </div>
 
-          <div class="dropdown">
+          <div class="dropdown border">
             <li class="main--nav-list">
               <a href="sustainability.html" class="main--nav-link"
                 >Sustainability
@@ -162,13 +162,15 @@
             </li>
           </div>
 
-          <li class="main--nav-list width">
-            <a href="sponsor.html" class="main--nav-link"
-              >Sponsorships / Partnerships / Events</a
-            >
-          </li>
+          <div class="border">
+            <li class="main--nav-list width">
+              <a href="sponsor.html" class="main--nav-link"
+                >Sponsorships / Partnerships / Events</a
+              >
+            </li>
+          </div>
 
-          <div class="dropdown">
+          <div class="dropdown border">
             <li class="main--nav-list">
               <a href="legal.html" class="main--nav-link active-border"
                 >Legal
@@ -183,10 +185,8 @@
               </div>
             </li>
           </div>
-        </ul>
 
-        <ul class="main--nav--list">
-          <li class="main--nav-list search-btn">
+          <li class="main--nav-list search-btn hidden-nav">
             <!-- <ion-icon name="search-sharp" class="search-icon icon"></ion-icon> -->
             <form action="">
               <input
@@ -199,22 +199,24 @@
             </form>
           </li>
 
-          <li class="main--nav-list">
+          <li class="main--nav-list hidden-nav">
             <a href="" class="main--nav-link btn-cta">Online Banking</a>
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <!-- ******************** -->
       <!--  AGENT BANKING SECTION -->
       <!-- ******************** -->
       <section class="agent-section">
-        <div class="grid--2-cols">
+        <div class="grid--2-cols grid-block">
           <div class="grid-">
-            <a href="index.html" class="home-btn"
-              >BACK TO: HOME</a
-            >
+            <a href="index.html" class="home-btn">BACK TO: HOME</a>
             <h2 class="secondary-header text">Legal</h2>
             <p class="text-description section-description">
               At FirstBank, we take our legal responsibilities <br />
@@ -306,7 +308,7 @@
       <section class="more-feature">
         <div class="container">
           <h2 class="primary-header">See Also</h2>
-          <div class="grid--4-cols">
+          <div class="grid--4-cols grid-4">
             <div class="grid-3">
               <a href=""
                 ><img src="/images/impact.jpg" alt="Hands" class="grid-3-img" />
