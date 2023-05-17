@@ -671,10 +671,10 @@
   }
 
   .btn-send,
-  .btnn {
+  .btnn,
+  .portal {
     width: 40rem;
   }
-
   .btnn {
     font-size: 1.5rem;
   }
