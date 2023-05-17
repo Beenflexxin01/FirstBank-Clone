@@ -174,7 +174,6 @@
     width: 45rem;
     /* padding: 10rem; */
     /* text-align: start; */
-
   }
 
   .grid-header {
@@ -213,6 +212,15 @@
     opacity: 1;
   }
 
+  .map-grid {
+    /* grid-template-columns: 1fr; */
+    display: block;
+  }
+
+  .map-view {
+    background-color: grey;
+  }
+
   .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
@@ -243,6 +251,25 @@
   .grid-block {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+
+  .grid--2--cols {
+    margin: auto;
+  }
+
+  .text-area {
+    width: 100%;
+  }
+
+  .btn-send {
+    width: 100%;
+  }
+
+  
+
+  .grid---2-cols {
+    grid-template-columns: 1fr;
+    margin: 0;
   }
 
   .grid---2 {
@@ -288,7 +315,6 @@
     margin: 1rem;
   }
 
-
   .imgg {
     margin-top: 0.2rem;
     left: 0;
@@ -302,9 +328,19 @@
     /* width: 137rem; */
   }
 
-  /* .purpose-text {
-    width: 40rem;
-  } */
+  .location-bar {
+    width: 100%;
+  }
+
+  .location-ul {
+    width: 100%;
+  }
+
+  .input {
+    width: 15rem;
+  }
+
+
 
   .grid-cols {
     display: block;
@@ -456,7 +492,8 @@
     margin: auto;
   }
 
-  .product-content {
+  .product-content,
+  .product-content-active {
     width: 100%;
     margin: auto;
   }
@@ -467,7 +504,7 @@
   }
 
   .grid-number {
-   width: 90%; 
+    width: 90%;
   }
 
   .grid--block {
@@ -490,6 +527,10 @@
 
   .calc-background {
     width: 100%;
+  }
+
+  .input {
+    width: 10rem;
   }
 
   .img {
@@ -551,24 +592,33 @@
     gap: 6rem;
   }
 
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
   .grid-2,
   .grid---2 {
-    width: 50rem;
+    width: 48rem;
   }
 
-  .imgg{
-    width: 50rem;
+  .imgg {
+    width: 48rem;
     margin-top: 3rem;
-    left: 1rem;
+    left: 2rem;
   }
+.image {
+  right: 1rem;
+}
 
   .img {
-    width: 50rem;
+    width: 48rem;
+    left: 0.7rem;
   }
 
-
   .brand-promise {
-    margin-top: 65rem;
+    margin-top: 69rem;
+    left: 0rem;
   }
 
   .grid {
@@ -591,5 +641,32 @@
     overflow-x: visible;
   }
 
+  .location-bar {
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .btn--dropdown {
+    margin: 1rem;
+  }
+
+  .location-ul {
+    gap: 0;
+  }
+
+    .map-view {
+    width: 100%;
+    color: blue;
+  }
+
+  .input {
+    width: 7rem;
+  }
+
+    .active:link,
+  .active:visited {
+    padding: 2rem;
+  }
 
 }
