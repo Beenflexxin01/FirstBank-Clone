@@ -263,9 +263,7 @@
 
   .btn-send {
     width: 100%;
-  }
-
-  
+  }  
 
   .grid---2-cols {
     grid-template-columns: 1fr;
@@ -593,26 +591,27 @@
   }
 
   .container {
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
   }
 
   .grid-2,
   .grid---2 {
-    width: 45rem;
+    width: 40rem;
   }
 
   .imgg {
-    width: 45rem;
+    width: 40rem;
     margin-top: 3rem;
     left: 2rem;
   }
 .image {
   right: 1rem;
+  width: 40rem;
 }
 
   .img {
-    width: 45rem;
+    width: 40rem;
     left: 0.7rem;
   }
 
@@ -668,5 +667,13 @@
   .active:visited {
     padding: 2rem;
   }
+
+   .text-area {
+    width: 40rem;
+  }
+
+  .btn-send {
+    width: 40rem;
+  }  
 
 }
