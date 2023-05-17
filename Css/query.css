@@ -263,7 +263,7 @@
 
   .btn-send {
     width: 100%;
-  }  
+  }
 
   .grid---2-cols {
     grid-template-columns: 1fr;
@@ -337,8 +337,6 @@
   .input {
     width: 15rem;
   }
-
-
 
   .grid-cols {
     display: block;
@@ -605,10 +603,10 @@
     margin-top: 3rem;
     left: 2rem;
   }
-.image {
-  right: 1rem;
-  width: 40rem;
-}
+  .image {
+    right: 1rem;
+    width: 40rem;
+  }
 
   .img {
     width: 40rem;
@@ -654,7 +652,7 @@
     gap: 0;
   }
 
-    .map-view {
+  .map-view {
     width: 100%;
     color: blue;
   }
@@ -663,17 +661,21 @@
     width: 7rem;
   }
 
-    .active:link,
+  .active:link,
   .active:visited {
     padding: 2rem;
   }
 
-   .text-area {
+  .text-area {
     width: 40rem;
   }
 
-  .btn-send {
+  .btn-send,
+  .btnn {
     width: 40rem;
-  }  
+  }
 
+  .btnn {
+    font-size: 1.5rem;
+  }
 }
