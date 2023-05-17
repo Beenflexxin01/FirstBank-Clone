@@ -176,6 +176,10 @@
     /* text-align: start; */
   }
 
+  .image-logo {
+    width: 100%;
+  }
+
   .grid-header {
     margin-top: 10rem;
   }
@@ -668,6 +672,15 @@
 
   .text-area {
     width: 40rem;
+  }
+
+  .image-logo {
+    width: 40rem;
+  } 
+
+  .sponsor {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .btn-send,
